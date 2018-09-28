@@ -5,20 +5,20 @@ default: &default
 development:
    adapter: postgresql
    encoding: unicode
-   database: librarydb
+   database: library_development
    username: rubyuser
    password: ruby1
 
 test:
    adapter: postgresql
    encoding: unicode
-   database: librarydb
+   database: library_test
    username: rubyuser
    password: ruby1
  
 production:
    adapter: postgresql
    encoding: unicode
-   database: librarydb
+   database: library_production
    username: rubyuser
    password: ruby1
